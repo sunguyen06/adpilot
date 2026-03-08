@@ -4,13 +4,12 @@
 
 <br />
 <div align="center">
-  <h1 align="center">🧠 ADBRAIN</h1>
+  <h1 align="center">🧠 AdPilot</h1>
 
   <p align="center">
     AI-Powered Ad Generator — Create high-quality promotional videos in seconds.
     <br />
     <br />
-    Built at <strong>CalHacks 12.0</strong>
     <br />
     <br />
   </p>
@@ -20,7 +19,7 @@
 
 ## About the Project
 
-**AdBrain** revolutionizes digital marketing by automatically generating professional ad videos from simple text or product descriptions.
+**AdPilot** revolutionizes digital marketing by automatically generating professional ad videos from simple text or product descriptions.
 
 Creators, small businesses, and event organizers can instantly turn ideas into compelling marketing content, powered by AI video generation via **Google Veo**, scalable cloud storage with **AWS S3**, and seamless backend orchestration through **FastAPI** and **Supabase (PostgreSQL)**.
 
@@ -58,7 +57,7 @@ This project combines modern full-stack tools with the latest AI models:
 
 ## Getting Started
 
-Follow these steps to run AdBrain locally:
+Follow these steps to run AdPilot locally:
 
 ### Prerequisites
 
@@ -71,8 +70,8 @@ Follow these steps to run AdBrain locally:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/brian-fu/adbrain.git
-   cd adbrain
+   git clone https://github.com/sunguyen06/adpilot.git
+   cd adpilot
    ```
 
 2. **Set up environment variables**
@@ -149,16 +148,9 @@ Follow these steps to run AdBrain locally:
 
 1. **Sign up / Log in** via Supabase authentication
 2. **Enter a short product or event description**
-3. AdBrain uses **Google Veo** to generate a promotional video
+3. AdPilot uses **Google Veo** to generate a promotional video
 4. **Preview, edit, and download** your AI-generated ad
 5. All videos are stored securely in **AWS S3** for later access
-
----
-
-## 🧑‍💻 Team & Acknowledgements
-
-Built by **Brian Fu** and **Brian An** at **CalHacks 12.0**
-Special thanks to Google Veo, AWS, and Supabase for powering AdBrain’s infrastructure.
 
 ---
 
