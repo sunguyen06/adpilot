@@ -10,15 +10,12 @@ from backend.config import settings
 logger = logging.getLogger(__name__)
 
 
-
-
-
 def get_mime_type(file_path: str) -> str:
     """Detect MIME type from file extension"""
     mime_type, _ = mimetypes.guess_type(file_path)
     if mime_type:
         return mime_type
-
+    
     # Fallback based on extension
     ext = os.path.splitext(file_path)[1].lower()
     mime_types = {
@@ -34,7 +31,6 @@ def generate_video(prompt: str, output_path: str = "dialogue_example.mp4", image
     try:
         logger.info("Initializing Google GenAI client for Veo video generation.")
         client = genai.Client(api_key=settings.GOOGLE_AI_API_KEY)
-
 
         logger.info(f"Starting video generation with prompt: {prompt[:100]}...")
         logger.info(f"Aspect ratio: {aspect_ratio}")
